@@ -5,9 +5,75 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
+  <sprites name="sprites">
+    <sprite>sprites\spr_NumPlayers3</sprite>
+    <sprite>sprites\spr_NumPlayers4</sprite>
+    <sprite>sprites\spr_NumPlayers5</sprite>
+    <sprite>sprites\spr_NumPlayers6</sprite>
+    <sprite>sprites\spr_NumPlayers7</sprite>
+  </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <objects name="objects">
+    <objects name="Cards">
+      <objects name="Age 1">
+        <objects name="Brown">
+          <object>objects\obj_LumberYard</object>
+          <object>objects\obj_StonePit</object>
+          <object>objects\obj_ClayPool</object>
+          <object>objects\obj_OreVein</object>
+          <object>objects\obj_TreeFarm</object>
+          <object>objects\obj_Excavation</object>
+          <object>objects\obj_ClayPit</object>
+          <object>objects\obj_TimberYard</object>
+          <object>objects\obj_ForestCave</object>
+          <object>objects\obj_Mine</object>
+        </objects>
+        <objects name="Grey">
+          <object>objects\obj_Loom</object>
+          <object>objects\obj_Glassworks</object>
+          <object>objects\obj_Press</object>
+        </objects>
+        <objects name="Blue">
+          <object>objects\obj_Pawnshop</object>
+          <object>objects\obj_Baths</object>
+          <object>objects\obj_Altar</object>
+          <object>objects\obj_Theatre</object>
+        </objects>
+        <objects name="Yellow">
+          <object>objects\obj_Tavern</object>
+          <object>objects\obj_ETP</object>
+          <object>objects\obj_WTP</object>
+          <object>objects\obj_Marketplace</object>
+        </objects>
+        <objects name="Red">
+          <object>objects\obj_Stockade</object>
+          <object>objects\obj_Barracks</object>
+          <object>objects\obj_GuardTower</object>
+        </objects>
+        <objects name="Green">
+          <object>objects\obj_Apothecary</object>
+          <object>objects\obj_Workshop</object>
+          <object>objects\obj_Scriptorium</object>
+        </objects>
+      </objects>
+    </objects>
+    <objects name="Controller">
+      <object>objects\obj_MainSetup</object>
+    </objects>
+    <objects name="Settings">
+      <object>objects\obj_NumPlayers3</object>
+      <object>objects\obj_NumPlayers4</object>
+      <object>objects\obj_NumPlayers5</object>
+      <object>objects\obj_NumPlayers6</object>
+      <object>objects\obj_NumPlayers7</object>
+      <object>objects\obj_Settings</object>
+    </objects>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\rm_Setup</room>
+    <room>rooms\rm_Main</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
